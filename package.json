@@ -1,0 +1,21 @@
+{
+  "name": "update-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "UPDATE_URL=http://localhost:5010 PORT=5020 LATEST_VERSION=0.1.2 node index",
+    "test": "mocha"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "~4.12.3",
+    "mocha": "~2.3.4",
+    "morgan": "~1.5.3",
+    "semver": "~4.3.6"
+  },
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "supertest": "~1.1.0"
+  }
+}
