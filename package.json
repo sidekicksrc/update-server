@@ -7,6 +7,9 @@
     "dev": "UPDATE_URL=http://localhost:5010 PORT=5020 LATEST_VERSION=0.1.2 node index",
     "test": "mocha"
   },
+  "engines": {
+    "node": "5.5.0"
+  },
   "license": "GPL-3.0",
   "dependencies": {
     "express": "~4.12.3",
