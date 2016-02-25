@@ -2,10 +2,10 @@
  * update and latest version server
  *
  * latest version
- *   GET /versions/latest?os=[darwin|linux|win32];format=[dmg|exe|deb|rpm]
+ *   GET /versions/latest?os=[darwin|linux|win32]&format=[dmg|exe|deb|rpm]
  *
  * update
- *   GET /releases/latest?current_version=x.y.z;os=[darwin|linux|win32];packageType=[deb|rpm]
+ *   GET /releases/latest?current_version=x.y.z&os=[darwin|linux|win32]&packageType=[deb|rpm]
  *
  *   200 = install this update
  *   204 = nothing to update
